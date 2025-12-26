@@ -1,0 +1,20 @@
+# Arduino / build output
+build/
+*.hex
+*.elf
+*.bin
+/build
+
+
+# IDE / workspace files
+*.workspace
+*.code-workspace
+.vscode/
+/Project Backups
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+
+/Smart Poles Sensors
