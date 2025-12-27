@@ -58,6 +58,18 @@ The gateway acts as a **bridge**, not a decision-maker.
 
 ---
 
+## System Diagrams
+
+### Block Diagram
+<img src="Smart Poles Docs/Smart Poles Block Diagram/Smart Poles Block Diagram.svg" width="650" />
+
+### Schematic Diagram
+<img src="Smart Poles Docs/Smart Poles Schematic/Smart Poles Schematic.svg" width="1035" />
+
+> PDF versions are available in the `Smart Poles Docs/Smart Poles Schematic/Smart Poles Schematic.pdf` directory.
+
+---
+
 ## Light Control Logic
 
 ### Day Mode
@@ -211,14 +223,24 @@ This provides basic but effective security for constrained IoT devices.
 ## Project Structure
 
 <pre>
-/
-├── firmware/              # Arduino sketches
-│
-├── proteus/               # Proteus simulation files
-│
-├── docs/                  # Schematics, block diagrams, PDFs, SVGs, PNGs
-│
-└── .gitignore
+Smart Street Poles IoT ATmega2560/
+├── Smart Poles Code/
+│   └── Smart_Poles_Code/
+|       └── Smart_Poles_Code.ino
+├── Smart Poles Docs/              
+│   ├── Smart Poles Block Diagram/
+|   |   ├── Smart Poles Block Diagram.png
+|   |   └── Smart Poles Block Diagram.svg
+|   └── Smart Poles Schematic/
+|       ├── Smart Poles Schematic.pdf
+|       ├── Smart Poles Schematic.png
+|       └── Smart Poles Schematic.svg
+├── Smart Poles Simulation/
+|   └── Smart_Poles.pdsprj 
+├── .gitignore
+├── LICENSE
+└── README.md
+
 </pre>
 External component libraries are intentionally excluded.
 Users should download sensors and libraries from official sources.
@@ -235,18 +257,14 @@ Users should download sensors and libraries from official sources.
 ## Motivation
 
 This project demonstrates how edge computing can:
+- Reduce latency
+- Save energy
+- Improve safety
+- Scale efficiently in smart city environments
 
-Reduce latency
-
-Save energy
-
-Improve safety
-
-Scale efficiently in smart city environments
-
-The design prioritizes practicality, reliability, and cost-efficiency.
+The design prioritizes **practicality, reliability, and cost-efficiency**.
 
 ## Author
+**Ahmed Waheed**
 
-Ahmed Waheed
 ICT – Software Development Track
