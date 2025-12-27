@@ -1,4 +1,6 @@
 <!-- # Smart-Street-Poles-IoT-ATmega2560 -->
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-incomplete-brightgreen)
 
 # Smart Street Light Poles – IoT Edge-Based System
 IoT-based smart street pole system for pedestrian walkways, enabling energy-efficient lighting, environmental monitoring, and public safety. Uses ATmega2560 edge nodes with ZigBee communication to a Raspberry Pi 3 gateway and MQTT-based CCC integration. Fully simulated using Proteus with a future roadmap toward real-world.
@@ -267,5 +269,3 @@ The design prioritizes **practicality, reliability, and cost-efficiency**.
 **Ahmed Waheed**
 
 ICT – Software Development Track
-
-test
