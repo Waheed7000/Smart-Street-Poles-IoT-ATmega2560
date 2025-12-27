@@ -64,7 +64,7 @@ The gateway acts as a **bridge**, not a decision-maker.
 <img src="Smart Poles Docs/Smart Poles Block Diagram/Smart Poles Block Diagram.svg" width="650" />
 
 ### Schematic Diagram
-<img src="Smart Poles Docs\Smart Poles Schematic/Smart Poles Schematic.SVG" width="650" />
+<img src="Smart Poles Docs\Smart Poles Schematic/Smart Poles Schematic.SVG" width="1050" />
 
 > PDF versions are available in the `Smart Poles Docs/Smart Poles Schematic/Smart Poles Schematic.pdf` directory.
 
