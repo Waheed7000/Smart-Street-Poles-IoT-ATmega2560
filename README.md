@@ -139,7 +139,26 @@ Collected data is sent to the gateway via **UART → XBee → ZigBee**.
 | MOSFET #3 | Fire alarm (buzzer) |
 
 ---
+## External Components
 
+The following components are used in this project.  
+All components should be obtained from their official sources.
+
+- **[LDR Module](https://electronicstree.com/ldr-module-proteus8-library/)**
+
+- **[PIR Sensor](https://electronicstree.com/new-pir-sensor-proteus-library/)**
+
+- **[Sound Sensor FC-04](https://electronicstree.com/sound-sensor-with-arduino-proteus-library/)**
+
+- **[PM2.5 Air Quality Sensor](https://electronicstree.com/new-air-quality-sensor-proteus-library/)**
+
+- **[Flame Sensor Module](https://electronicstree.com/new-flame-sensor-module-proteus8-library/)**
+
+- **[MQ2 Gas Sensor](https://electronicstree.com/mq2-gas-sensor-in-proteus/)**
+
+- **[XBee Module](https://www.theengineeringprojects.com/2016/01/xbee-library-proteus.html)**
+
+---
 ## Communication Protocols
 
 ### Edge ↔ Gateway
@@ -191,7 +210,7 @@ This provides basic but effective security for constrained IoT devices.
 
 ## Project Structure
 
-```text
+<pre>
 /
 ├── firmware/              # Arduino sketches
 │
@@ -200,3 +219,34 @@ This provides basic but effective security for constrained IoT devices.
 ├── docs/                  # Schematics, block diagrams, PDFs, SVGs, PNGs
 │
 └── .gitignore
+</pre>
+External component libraries are intentionally excluded.
+Users should download sensors and libraries from official sources.
+
+## Future Work
+
+- Build a real hardware prototype using Arduino and XBee
+- Multi-stage prototyping on breadboard
+- Design custom PCB
+- Optimize sensor placement per pole
+- Open-source physical pole design
+- Develop CCC backend and dashboards
+
+## Motivation
+
+This project demonstrates how edge computing can:
+
+Reduce latency
+
+Save energy
+
+Improve safety
+
+Scale efficiently in smart city environments
+
+The design prioritizes practicality, reliability, and cost-efficiency.
+
+## Author
+
+Ahmed Waheed
+ICT – Software Development Track
