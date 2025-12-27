@@ -64,7 +64,7 @@ The gateway acts as a **bridge**, not a decision-maker.
 <img src="Smart Poles Docs/Smart Poles Block Diagram/Smart Poles Block Diagram.svg" width="650" />
 
 ### Schematic Diagram
-<img src="Smart Poles Docs/Smart Poles Schematic/Smart Poles Schematic.svg" width="1035" />
+<img src="Smart Poles Docs/Smart Poles Schematic/Smart Poles Schematic.svg" width="750" />
 
 > PDF versions are available in the `Smart Poles Docs/Smart Poles Schematic/Smart Poles Schematic.pdf` directory.
 
@@ -240,7 +240,6 @@ Smart Street Poles IoT ATmega2560/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
 </pre>
 External component libraries are intentionally excluded.
 Users should download sensors and libraries from official sources.
