@@ -269,3 +269,11 @@ The design prioritizes **practicality, reliability, and cost-efficiency**.
 **Ahmed Waheed**
 
 ICT – Software Development Track
+
+---
+
+## 📜 License
+
+This project is released under the [MIT License](LICENSE) — feel free to use, modify, and share with proper attribution.
+
+---
